@@ -18,6 +18,9 @@
 		C2B59836184E12550009D4F2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B59835184E12550009D4F2 /* Default-568h@2x.png */; };
 		C2B59839184E12550009D4F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B59838184E12550009D4F2 /* ViewController.m */; };
 		C2B5983C184E12550009D4F2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2B5983A184E12550009D4F2 /* ViewController.xib */; };
+		C2B59844184E131F0009D4F2 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B59843184E131F0009D4F2 /* FeedViewController.m */; };
+		C2B59847184E13280009D4F2 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B59846184E13280009D4F2 /* ProfileViewController.m */; };
+		C2B5984A184E13390009D4F2 /* FavouritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B59849184E13390009D4F2 /* FavouritesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,12 @@
 		C2B59837184E12550009D4F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C2B59838184E12550009D4F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C2B5983B184E12550009D4F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C2B59842184E131F0009D4F2 /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		C2B59843184E131F0009D4F2 /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		C2B59845184E13280009D4F2 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		C2B59846184E13280009D4F2 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		C2B59848184E13390009D4F2 /* FavouritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavouritesViewController.h; sourceTree = "<group>"; };
+		C2B59849184E13390009D4F2 /* FavouritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouritesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +98,12 @@
 				C2B59838184E12550009D4F2 /* ViewController.m */,
 				C2B5983A184E12550009D4F2 /* ViewController.xib */,
 				C2B59826184E12550009D4F2 /* Supporting Files */,
+				C2B59842184E131F0009D4F2 /* FeedViewController.h */,
+				C2B59843184E131F0009D4F2 /* FeedViewController.m */,
+				C2B59845184E13280009D4F2 /* ProfileViewController.h */,
+				C2B59846184E13280009D4F2 /* ProfileViewController.m */,
+				C2B59848184E13390009D4F2 /* FavouritesViewController.h */,
+				C2B59849184E13390009D4F2 /* FavouritesViewController.m */,
 			);
 			path = NavController;
 			sourceTree = "<group>";
@@ -176,6 +191,9 @@
 				C2B5982C184E12550009D4F2 /* main.m in Sources */,
 				C2B59830184E12550009D4F2 /* AppDelegate.m in Sources */,
 				C2B59839184E12550009D4F2 /* ViewController.m in Sources */,
+				C2B59844184E131F0009D4F2 /* FeedViewController.m in Sources */,
+				C2B59847184E13280009D4F2 /* ProfileViewController.m in Sources */,
+				C2B5984A184E13390009D4F2 /* FavouritesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +316,7 @@
 				C2B59841184E12550009D4F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
